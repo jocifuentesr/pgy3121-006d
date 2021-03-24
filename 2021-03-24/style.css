@@ -1,0 +1,27 @@
+body{
+    background-color: powderblue;
+}
+
+h1{
+    color: rgb(255, 55, 99);
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    color: #ff33ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18px;
+    font-weight: bold;
+}
+
+img{
+    float: right;
+}
+
+.nuevo{
+    margin: auto;
+    width: 60%;
+    color: red;
+    font-size: 12px;
+}
