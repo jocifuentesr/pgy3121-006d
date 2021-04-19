@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+  <h1>Mi primer formulario</h1>
+  <!-- Incio del formulario  -->
+  <form action="procesar.php" enctype="multipart/form-data" method="GET" name="contacto">
+    <span>RUT </span><input type="text" name="rut" value="" placeholder="Ingrese su rut">
+    <br>
+    <br>
+    <span>EDAD </span><input type="number" name="edad" value="" placeholder="Ingrese su edad">
+    <br>
+    <br>
+    <span>PASSWORD </span><input type="password" name="clave" value="" placeholder="Ingrese su contraseña">
+    <br>
+    <br>
+    <input type="submit" name="enviar" value="Enviar">
+
+  </form> 
+</body>
+</html>
