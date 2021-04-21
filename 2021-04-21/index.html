@@ -18,6 +18,52 @@
             <label for="cantidad">¿Cuántas empanadas de queso le gustaría incluir?</label>
             <input type="number" name="cantidad">
         </section>
+        <hr>
+        <section id="coccion">
+            <label for="coccion">¿Cuál es el punto que te gusta tu hamburguesa?</label>
+            <br>
+            <span>Casi cruda</span>
+            <input type="range" name="coccion" value="3" min="1" max="5">
+            <span>Muy cocida</span>
+        </section>
+        <hr>
+        <section id="vegetales">
+            <h2>¿Qué tipos de vegetales le gustaría incluir?</h2>
+            <input type="checkbox" name="vegetales" value="lechuga" id="lechuga">
+            <label for="lechuga">Lechuga</label>
+            <input type="checkbox" name="vegetales" value="tomate" id="tomate">
+            <label for="tomate">Tomate</label>
+            <input type="checkbox" name="vegetales" value="cebolla" id="cebolla">
+            <label for="cebolla">Cebolla</label>
+        </section>
+        <hr>
+        <section>
+            <span>¿Le gustaría añadir queso?</span>
+            <br>
+            <input type="radio" name="queso" id="si" value="si">
+            <label for="si">Sí</label>
+            <input type="radio" name="queso" id="no" value="no">
+            <label for="si">No</label>
+        </section>
+        <hr>
+        <section>
+            <label for="extra">¿Qué extra le gustaría incluir gratis?</label>
+            <select name="extra" id="extra">
+                <option value="tocino">Tocino</option>
+                <option value="salsa-picante">Salsa picante</option>
+                <option value="bbq">Salsa BBQ</option>
+                <option value="pepinillo">Pepinillo</option>
+            </select>
+        </section>
+        <hr>
+        <section>
+            <label for="extra-info">¿Algo que nos quieras contar?</label>
+            <br>
+            <textarea name="extra-info" id="extra-info" cols="30" rows="10"></textarea>
+        </section>
+        <section>
+            <input type="submit" value="Enviar">
+        </section>
     </form>
 </body>
 </html>
